@@ -58,8 +58,6 @@ def calculate(opt):
         evaluate(option,quantity,value)
     return value                
 
-def options():
-    print("hi")
 
 
 total=0
@@ -70,8 +68,7 @@ while True:
     option=int(input("enter option: "))
     if option==0:
         break
-    if option==7:    #option 7 is added to go to admin options which can be add items, etc.
-        options()
+ 
     quantity=int(input("enter quantity:")) 
     
     finalValue=calculate(option)
